@@ -1,0 +1,110 @@
+/* RESPONSIVE CSS START */
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .fea-list-img {
+        margin-left: 0px;
+    }
+    .fea-list-img.fea-list-img-2 {
+        margin-left: 0px;
+    }
+    .fea-list-img.fea-list-img-2 img{
+        width: 100%;
+    }
+    .testimonial-heading {
+        margin-top: 100px;
+    }
+}
+  
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .header-area {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .hero-content {
+        margin-top: 70px;
+        margin-bottom: 40px;
+    }
+    .fea-list-img.fea-list-img-2 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .cta-form input {
+        width: 350px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .header-area {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .hero-content {
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+    .fea-list-img  {
+        margin-left: 0;
+    }
+    .fea-list-img img {
+        width: 100%;
+    }
+    .fea-list-img.fea-list-img-2 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .cta-form input {
+        width: 260px;
+    }
+    .features-area{
+        padding-bottom: 0;
+    }
+    .testimonial-img img {
+        width: 100%;
+    }
+    .footer-bottom-link.text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+}
+  
+@media only screen and (max-width: 567px) {
+    .header-area {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    .hero-content {
+        margin-bottom: 40px;
+        margin-top: 70px;
+    }
+    .hero-content h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .fea-list-img  {
+        margin-left: 0;
+    }
+    .fea-list-img img {
+        width: 100%;
+    }
+    .fea-list-img.fea-list-img-2 {
+        margin-left: 15px;
+        margin-top: 45px;
+    }
+    .cta-form button {
+        margin-top: 20px;
+    }
+    .cta-form input {
+        width: 260px;
+        margin-right: 0;
+    }
+    .features-area{
+        padding-bottom: 0;
+    }
+    .testimonial-img img {
+        width: 100%;
+    }
+    .footer-bottom-link.text-right {
+        text-align: left !important;
+        margin-top: 15px;
+    }
+}
